@@ -13,7 +13,7 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Open Doctor Canvas..canvas",
+                "file": "gOpen Doctor Canvas..canvas",
                 "viewState": {
                   "x": 115.88659078371414,
                   "y": -774.0977756212249,
@@ -21,7 +21,7 @@
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Open Doctor Canvas."
+              "title": "gOpen Doctor Canvas."
             }
           },
           {
@@ -42,17 +42,14 @@
             "id": "fed66791bafeed92",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Open Doctor Canvas..canvas",
-                "viewState": {
-                  "x": 515.116749340369,
-                  "y": -923.6349551451187,
-                  "zoom": -1.6158436049372968
-                }
+                "file": "Open Doctor Spec TODO.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Open Doctor Canvas."
+              "icon": "lucide-file",
+              "title": "Open Doctor Spec TODO"
             }
           }
         ],
@@ -175,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Open Doctor Canvas..canvas",
+                "file": "Open Doctor Spec TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Open Doctor Canvas."
+              "title": "Outline of Open Doctor Spec TODO"
             }
           },
           {
@@ -215,9 +212,9 @@
   },
   "active": "fed66791bafeed92",
   "lastOpenFiles": [
+    "gOpen Doctor Canvas..canvas",
     "Open Doctor Spec TODO.md",
     "README.md",
-    "Open Doctor Canvas..canvas",
     "Open Doctor Spec.md",
     "Linked files/Untitled.md",
     "Linked files",
