@@ -28,14 +28,17 @@
             "id": "e95e053decb11f8f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "Linked files/Tech Stack Discussion.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-layout-dashboard",
+              "title": "Tech Stack Discussion"
             }
           },
           {
@@ -172,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "Linked files/Tech Stack Discussion.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Tech Stack Discussion"
             }
           },
           {
@@ -212,8 +215,9 @@
   },
   "active": "e95e053decb11f8f",
   "lastOpenFiles": [
-    "Open Doctor Spec TODO.md",
+    "Linked files/Tech Stack Discussion.canvas",
     "README.md",
+    "Open Doctor Spec TODO.md",
     "Linked files/Screenshot 2025-03-19 at 08.53.37.png",
     "Linked files/Open Doctor Canvas..canvas",
     "Open Doctor Spec.md",
