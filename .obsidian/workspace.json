@@ -37,9 +37,26 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "fed66791bafeed92",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Open Doctor - _Cursor IDE but for medical history_.canvas",
+                "viewState": {
+                  "x": 515.116749340369,
+                  "y": -923.6349551451187,
+                  "zoom": -1.6158436049372968
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Open Doctor - _Cursor IDE but for medical history_"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -158,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "Open Doctor - _Cursor IDE but for medical history_.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Open Doctor - _Cursor IDE but for medical history_"
             }
           },
           {
@@ -196,10 +213,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e95e053decb11f8f",
+  "active": "fed66791bafeed92",
   "lastOpenFiles": [
-    "Open Doctor - _Cursor IDE but for medical history_.canvas",
+    "Open Doctor Spec TODO.md",
     "README.md",
+    "Open Doctor - _Cursor IDE but for medical history_.canvas",
     "Open Doctor Spec.md",
     "Linked files/Untitled.md",
     "Linked files",

@@ -17,6 +17,7 @@ Background processes:
 Front end: (exactly like Cursor Coding tool but for medical documents)
 ---
 -  Right side collapsible File system view: 
+	- 
 - Middle view: Date scroll with text summary of Medical timeline (Oldest Medical documents at the bottom of the timeline.) newest documents at the top.  
 	- Scroll the timeline past the TOP of "timeline" (Scroll with inertia animation) 
 		- Snap page Too a "State of health one pager" with prominent (Export as PDF button.)
@@ -31,13 +32,23 @@ Developer tools:
 ---
 - Open Doctor LLM agent runtime MAKER: 
 	- Packages Open Doctor agent dependencies into a single binary and Hashes the resulting file. 
-
 - Medical-qualifications Permission assigner. 
 	- Provides an AI  "Open Dr ranking" 
 	- Registers model "qualifications" with background scheduler and tool database.
+----
 
+Open Doctor LLM agent runtimes:
+---
+*Open Dr. LLM agent runtimes must have:( local or API , Seed-Numbers, Prompts / chains / MCP-tools.. Compiled, hashed, signed published publicly.*  )
 
+!!!All doctors are deterministic!!! - No randomness !!!
 
+- Temperature Seed values are hard coded.  
+- Prompts and conversation chains are hardcoded.
+- Tools and API are hardcoded
+  
+This means you cannot give a an old doctor agent a new Tool/API if you give it exactly the same tokens as input, it will generate the same tokens output every time. 
+- 
 
 ----
 Standards:
@@ -51,8 +62,9 @@ Standards:
 - safety standards
 	- patient data permissions (API-tool_use-level 1,2,3,4...)
 	- patient conversation permissions  (AI_level 1,2,3,4...)
-	- hallucination detection (big Brother)
+	- hallucination detection (Big Brother tools)
 	- Data change tracking and immutability (Git)
+	
 - API standards.. 
 	- how to request a database permission, 
 	- how to build new Open Dr. runtimes with your specific tools.
