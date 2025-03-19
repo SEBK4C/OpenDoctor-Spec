@@ -5,24 +5,14 @@ Open Doctor Spec- _Cursor IDE but for medical history_
 ---
 (what is in scope?)
 
-**Features:**
-- System is Fully portable.
-- Patient data File system: 
-- Medical Timeline Database schema: 
+The 
+- System is Fully portable:
+- Patient data File system:
+- Database schema: 
 - LLM server stack, as packaged single binary:
-- User/Doctor Frontend
   
-**Background processes:**
-- security moderator:
-	-  LLM Stack  "Medical-qualifications" Permission assigner,
-	- File permissions manager
-	- Patient folder Encryption Utility
-	- API manager
-- MCP(AI-avalible-tools) Permissions manager, 
-	- File system traversal 
-	- File Edit APIs
-	- Database scheduler
-	- Chat interface service
+Background processes:
+- permissions, file system traversal and file Edit APIs and Multi Database scheduler:
   
 Front end: (exactly like Cursor Coding tool but for medical documents)
 ---
@@ -35,11 +25,12 @@ Front end: (exactly like Cursor Coding tool but for medical documents)
 	- patient can ask questions of their own medical data with a RAG pipeline that scrolls to the correct point in their history. And let them have a conversation about details within that data..
 	- from this conversation, transcript symptoms and medical interventions can be inferred. Then A form will be generated, asking the user if the symptoms/medication/historical-dates are accurate and if they would like the system AI to add it to their timeline. (The user has easy selection to correct any inaccurate information within the Smart-Form directly.) 
 	- When a "Smart form" is submitted, a summary is generated on the Timeline at the appropriate date range and a new GIT commit is made.  (Allowing the user to roll back to previous versions of their medical history. Keeping a detailed file versioning system available for historical medical intervention references.)
+	![[Screenshot 2025-03-19 at 08.53.37.png]]
 ---
 Developer tools:
 ---
-- Open Dr. LLM agent runtime MAKER: 
-	- Packages Open Dr agent dependencies into a single binary and Hashes the resulting file. 
+- Open Doctor LLM agent runtime MAKER: 
+	- Packages Open Doctor agent dependencies into a single binary and Hashes the resulting file. 
 - Medical-qualifications Permission assigner. 
 	- Provides an AI  "Open Dr ranking" 
 	- Registers model "qualifications" with background scheduler and tool database.

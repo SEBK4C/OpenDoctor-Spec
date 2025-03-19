@@ -2,10 +2,12 @@ Open Doctor Spec- _Cursor IDE but for medical history_
 ---
 (what is in scope?)
 
-- System is Fully portable
+The 
+- System is Fully portable:
 - Patient data File system:
 - Database schema: 
 - LLM server stack, as packaged single binary:
+  
 Background processes:
 - permissions, file system traversal and file Edit APIs and Multi Database scheduler:
   
