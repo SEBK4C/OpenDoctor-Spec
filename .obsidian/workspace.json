@@ -13,7 +13,7 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "gOpen Doctor Canvas..canvas",
+                "file": "Linked files/Open Doctor Canvas..canvas",
                 "viewState": {
                   "x": 115.88659078371414,
                   "y": -774.0977756212249,
@@ -21,7 +21,7 @@
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "gOpen Doctor Canvas."
+              "title": "Open Doctor Canvas."
             }
           },
           {
@@ -53,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Open Doctor Spec TODO.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Open Doctor Spec TODO"
+              "title": "Outline of README"
             }
           },
           {
@@ -210,14 +210,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fed66791bafeed92",
+  "active": "e95e053decb11f8f",
   "lastOpenFiles": [
-    "gOpen Doctor Canvas..canvas",
     "Open Doctor Spec TODO.md",
     "README.md",
+    "Linked files/Screenshot 2025-03-19 at 08.53.37.png",
+    "Linked files/Open Doctor Canvas..canvas",
     "Open Doctor Spec.md",
     "Linked files/Untitled.md",
-    "Linked files",
-    "Linked files/Screenshot 2025-03-19 at 08.53.37.png"
+    "Linked files"
   ]
 }

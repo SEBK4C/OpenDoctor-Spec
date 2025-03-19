@@ -37,7 +37,7 @@ Developer tools:
 	- Registers model "qualifications" with background scheduler and tool database.
 ----
 
-Open Doctor LLM agent runtimes:
+Open Doctor LLM agent runtimes: 
 ---
 *Open Dr. LLM agent runtimes must have:( local or API , Seed-Numbers, Prompts / chains / MCP-tools.. Compiled, hashed, signed published publicly.*  )
 
@@ -48,9 +48,14 @@ Open Doctor LLM agent runtimes:
 - Tools and API are hardcoded
   
 This means you cannot give a an old doctor agent a new Tool/API if you give it exactly the same tokens as input, it will generate the same tokens output every time. 
-- 
 
-----
+> [!Test these Idea's before Implimentation]
+> - TEST Tool APIs with "dummy data" will be required. Like a search query API. With JSON objects returned. Will need to be deterministic for test testing to be valid.. 
+> 
+> - Every MCP tool server, should have a MCP_test server with a list of Dummy Data.
+> TEST THIS IDEA!
+> - Can LLM Determinism some work in practice?
+
 Standards:
 ---
 - We publish "Known Good"  medical AI standards for agents interactions with patients and doctors. 
