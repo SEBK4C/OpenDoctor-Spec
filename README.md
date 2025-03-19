@@ -31,10 +31,14 @@ Developer tools:
 ---
 - Open Doctor LLM agent runtime MAKER: 
 	- Packages Open Doctor agent dependencies into a single binary and Hashes the resulting file. 
+
 - Medical-qualifications Permission assigner. 
 	- Provides an AI  "Open Dr ranking" 
 	- Registers model "qualifications" with background scheduler and tool database.
-- 
+
+
+
+
 ----
 Standards:
 ---

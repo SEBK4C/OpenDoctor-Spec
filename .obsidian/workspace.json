@@ -28,17 +28,14 @@
             "id": "e95e053decb11f8f",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Open Doctor - _Cursor IDE but for medical history_.canvas",
-                "viewState": {
-                  "x": 366.7341798336262,
-                  "y": -322.46885899894653,
-                  "zoom": -1.4993265209944076
-                }
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Open Doctor - _Cursor IDE but for medical history_"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ],
@@ -161,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Open Doctor - _Cursor IDE but for medical history_.canvas",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Open Doctor - _Cursor IDE but for medical history_"
+              "title": "Outline of README"
             }
           },
           {
@@ -201,9 +198,9 @@
   },
   "active": "e95e053decb11f8f",
   "lastOpenFiles": [
-    "Open Doctor Spec.md",
-    "README.md",
     "Open Doctor - _Cursor IDE but for medical history_.canvas",
+    "README.md",
+    "Open Doctor Spec.md",
     "Linked files/Untitled.md",
     "Linked files",
     "Linked files/Screenshot 2025-03-19 at 08.53.37.png"
