@@ -1,23 +1,13 @@
-# OpenDoctor-Spec
-Open Doctor = Like _Cursor.sh IDE but for medical history_
-
 Open Doctor Spec- _Cursor IDE but for medical history_
 ---
 (what is in scope?)
 
-- System is Fully portable.
-- Patient data File system: 
-- Medical Timeline Database schema: 
+- System is Fully portable
+- Patient data File system:
+- Database schema: 
 - LLM server stack, as packaged single binary:
-- User/Doctor FrontEnd
-  
-**Background processes:**
-- 
-- MCP(AI-tools) Permissions, 
-	- File system traversal 
-	- File Edit APIs
-	- Database scheduler
-	- 
+Background processes:
+- permissions, file system traversal and file Edit APIs and Multi Database scheduler:
   
 Front end: (exactly like Cursor Coding tool but for medical documents)
 ---
