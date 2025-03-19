@@ -13,7 +13,7 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Open Doctor - _Cursor IDE but for medical history_.canvas",
+                "file": "Open Doctor Canvas..canvas",
                 "viewState": {
                   "x": 115.88659078371414,
                   "y": -774.0977756212249,
@@ -21,7 +21,7 @@
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Open Doctor - _Cursor IDE but for medical history_"
+              "title": "Open Doctor Canvas."
             }
           },
           {
@@ -44,7 +44,7 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Open Doctor - _Cursor IDE but for medical history_.canvas",
+                "file": "Open Doctor Canvas..canvas",
                 "viewState": {
                   "x": 515.116749340369,
                   "y": -923.6349551451187,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Open Doctor - _Cursor IDE but for medical history_"
+              "title": "Open Doctor Canvas."
             }
           }
         ],
@@ -175,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Open Doctor - _Cursor IDE but for medical history_.canvas",
+                "file": "Open Doctor Canvas..canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Open Doctor - _Cursor IDE but for medical history_"
+              "title": "Outline of Open Doctor Canvas."
             }
           },
           {
@@ -217,7 +217,7 @@
   "lastOpenFiles": [
     "Open Doctor Spec TODO.md",
     "README.md",
-    "Open Doctor - _Cursor IDE but for medical history_.canvas",
+    "Open Doctor Canvas..canvas",
     "Open Doctor Spec.md",
     "Linked files/Untitled.md",
     "Linked files",
