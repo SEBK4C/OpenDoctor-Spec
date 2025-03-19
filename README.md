@@ -5,19 +5,24 @@ Open Doctor Spec- _Cursor IDE but for medical history_
 ---
 (what is in scope?)
 
+**Features:**
 - System is Fully portable.
 - Patient data File system: 
 - Medical Timeline Database schema: 
 - LLM server stack, as packaged single binary:
-- User/Doctor FrontEnd
+- User/Doctor Frontend
   
 **Background processes:**
-- 
-- MCP(AI-tools) Permissions, 
+- security moderator:
+	-  LLM Stack  "Medical-qualifications" Permission assigner,
+	- File permissions manager
+	- Patient folder Encryption Utility
+	- API manager
+- MCP(AI-avalible-tools) Permissions manager, 
 	- File system traversal 
 	- File Edit APIs
 	- Database scheduler
-	- 
+	- Chat interface service
   
 Front end: (exactly like Cursor Coding tool but for medical documents)
 ---
