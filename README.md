@@ -89,7 +89,7 @@ The system requires specific components to ensure reliable and secure operation:
 
 ### Deterministic Nature
 > [!IMPORTANT]
-> All doctors are deterministic - No randomness!
+> All doctors will be tested on deterministic outputs - temperature values are levels of statistically bound randomness. For this reason, all tests will be written with temperature value zero. Or use predefined temperature Seed values.  (difficult for when models are provided by external API calls.)
 
 This ensures consistent and reliable medical advice:
 - Temperature seed values are hardcoded
@@ -97,13 +97,12 @@ This ensures consistent and reliable medical advice:
 - Tools and APIs are hardcoded
 
 > [!NOTE]
-> Given the same input tokens, an old doctor agent will always generate the same output tokens, ensuring consistent medical advice.
+> Deterministic : Given the same input tokens, a doctor agent will need to always generate the same output tokens 100% of the time. 
 
-### Testing Requirements
+### Testing Requirements: 
 > [!TODO]
-> - [ ] Test Tool APIs with "dummy data"
-> - [ ] Implement MCP_test server with dummy data list
-> - [ ] Validate LLM determinism in practice
+> - [ ] Test Tool APIs with Deterministic "dummy data" Implement on MCP_test servers
+> - [ ] Validate LLM determinism in practice, identify and eliminate 
 
 ## Standards
 

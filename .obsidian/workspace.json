@@ -228,13 +228,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Benchmarking datasets (Acquiring-MIMIC).md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Benchmarking datasets (Acquiring-MIMIC)"
+              "title": "Outline of README"
             }
           },
           {
@@ -265,7 +265,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "24a1451449bc7b5f",
+  "active": "ae7f3dcdd8bcc0cc",
   "lastOpenFiles": [
     "People to contact and work with on the Open Doctor.md",
     "Open Doctor Spec TODO.md",
