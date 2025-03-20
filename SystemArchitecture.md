@@ -104,7 +104,7 @@ The architecture incorporates several layers of security:
   - Encrypted storage at rest
 
 - **Access Control**
-  - Multi-factor authentication options
+  - Device authentication options
   - Principle of least privilege
   - Session management and timeout controls
 
