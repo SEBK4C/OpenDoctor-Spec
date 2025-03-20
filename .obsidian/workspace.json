@@ -28,17 +28,28 @@
             "id": "e95e053decb11f8f",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Linked files/Tech Stack Discussion.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Tech Stack Discussion"
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "d3825c7ef2acd39f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Sources.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Data Sources"
             }
           },
           {
@@ -56,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -175,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linked files/Tech Stack Discussion.canvas",
+                "file": "Data Sources.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tech Stack Discussion"
+              "title": "Outline of Data Sources"
             }
           },
           {
@@ -213,10 +224,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e95e053decb11f8f",
+  "active": "d3825c7ef2acd39f",
   "lastOpenFiles": [
-    "Linked files/Tech Stack Discussion.canvas",
     "README.md",
+    "Data Sources.md",
+    "Linked files/Tech Stack Discussion.canvas",
     "Open Doctor Spec TODO.md",
     "Linked files/Screenshot 2025-03-19 at 08.53.37.png",
     "Linked files/Open Doctor Canvas..canvas",
