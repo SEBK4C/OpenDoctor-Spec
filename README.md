@@ -1,6 +1,13 @@
 # OpenDoctor-Spec
 
-> Open Doctor - Like _Cursor.sh IDE but for medical history_
+> Open Doctor - Like _Cursor.sh IDE but for personal medical history_
+## Overview
+Open Doctor is a specialized IDE designed for managing and interacting with medical history, similar to how Cursor IDE is used for coding. It provides a comprehensive platform for patients to maintain, understand, and share their medical records while ensuring privacy and data security. 
+
+## Using This Repository of specification Docs
+This repository is optimized for viewing in Obsidian [obsidian.md/download](https://obsidian.md/download)
+1. Clone repository and open this repository as an Obsidian vault
+2. Enable the Graph View to visualize connections between documents
 
 ## Project Story
 
@@ -8,7 +15,7 @@
 In today's healthcare system, both patients and doctors face significant challenges:
 - Patients feel frustrated with limited time during doctor visits
 - Doctors are increasingly overloaded with more patients and less time per person
-- Critical medical history is often fragmented across different healthcare providers
+- Critical medical history is often fragmented across different healthcare providers [↗ DataSources.md](DataSources.md)
 - Important details from past visits and tests are frequently missed in brief consultations
 - Patients struggle to maintain a comprehensive view of their health status
 
@@ -25,13 +32,10 @@ Open Doctor is a privacy-first, open-source tool that empowers patients to take 
 - **Open Source**: The only open-source AI doctor tool focused on local processing of patient health histories
 - **Patient-Centric**: Empowers patients to maintain and understand their medical records
 - **Doctor-Friendly**: Provides clear, concise summaries for efficient consultations
-- **Future-Ready**: Will integrate with medical research for evidence-based treatment suggestions
-
-## Overview
-Open Doctor is a specialized IDE designed for managing and interacting with medical history, similar to how Cursor IDE is used for coding. It provides a comprehensive platform for patients to maintain, understand, and share their medical records while ensuring privacy and data security.
-
+- **Future-Ready**: Will integrate with medical research for evidence-based treatment suggestions. [↗ See BenchmarkingDatasets.md for growing list of validation datasets](BenchmarkingDatasets.md)
+----
 ## System Architecture
-
+[↗ Full details in SystemArchitecture.md](SystemArchitecture.md)
 ### Core Components
 
 **1. System Portability**
@@ -51,8 +55,9 @@ The system employs asynchronous background processes to ensure data security and
 - **Protected File Edit APIs:** APIs designed for secure and controlled updates to medical records.
 - **Multi-Database Scheduler:** An efficient scheduler that orchestrates tasks across multiple databases, ensuring optimal data management and system performance.
 
+**3. Frontend Interface**
+[↗ More details in FrontendInterface.md](FrontendInterface.md)
 
-#### 3. Frontend Interface
 The interface is designed to be intuitive and efficient, mirroring Cursor's coding tool layout but specialized for medical documents:
 
 - **Right Side**: Collapsible file system view for easy navigation of medical records
@@ -69,7 +74,9 @@ The interface is designed to be intuitive and efficient, mirroring Cursor's codi
 
 ![Interface Screenshot](Linked%20files/Screenshot%202025-03-19%20at%2008.53.37.png)
 
+---
 ### Developer Tools
+[↗ Complete documentation in DeveloperTools.md](DeveloperTools.md)
 
 #### 1. Open Doctor LLM Agent Runtime MAKER
 This tool ensures consistent and secure AI processing:
@@ -84,6 +91,7 @@ This component manages AI model capabilities and permissions:
 - Manages the tool database for medical interventions
 
 ## Open Doctor LLM Agent Runtimes
+[↗ In-depth specifications in LLMAgentRuntimes.md](LLMAgentRuntimes.md)
 
 ### Requirements
 The system requires specific components to ensure reliable and secure operation:
@@ -108,8 +116,11 @@ This ensures consistent and reliable medical advice:
 > [!TODO]
 > - [ ] Test Tool APIs with Deterministic "dummy data" Implement on MCP_test servers
 > - [ ] Validate LLM determinism in practice, identify and eliminate 
+> 
+> [↗ See ProjectTODO.md for complete task list](ProjectTODO.md)
 
 ## Standards
+[↗ Comprehensive standards documentation in StandardsAndAPI.md](StandardsAndAPI.md)
 
 ### Medical AI Standards
 The system adheres to strict standards for medical AI interactions:
@@ -133,6 +144,8 @@ The system maintains high standards for medical accuracy and safety:
   - Controlled AI conversation levels
   - Hallucination detection
   - Immutable data tracking
+  
+[↗ See BenchmarkingDatasets.md for validation processes](BenchmarkingDatasets.md)
 
 ### API Standards
 The system provides clear standards for integration and development:
@@ -142,7 +155,7 @@ The system provides clear standards for integration and development:
 - Clear publication guidelines
 
 > [!NOTE]
-> Open Doctor is committed to maintaining the highest standards of medical accuracy, patient privacy, and system reliability while providing an open-source solution for better healthcare outcomes.
+> Open Doctor is committed to maintaining the highest standards of medical accuracy, patient privacy, and system reliability while providing an open-source solution for better healthcare outcomes. [↗ See ExpertContacts.md for medical domain experts](ExpertContacts.md)
 
 ## Project Documentation
 
@@ -150,15 +163,11 @@ The following documents provide detailed information about different aspects of 
 
 ### Core Architecture and Components
 
-- [SystemArchitecture.md](SystemArchitecture.md) - Detailed explanation of Open Doctor's system architecture, including core components, security considerations, and integration patterns.
-
-- [FrontendInterface.md](FrontendInterface.md) - Comprehensive guide to the user interface, including layout, features, interaction patterns, and planned enhancements.
-
-- [DeveloperTools.md](DeveloperTools.md) - Documentation of tools for developers, including the LLM Agent Runtime MAKER, Medical Qualifications Permission Assigner, and development workflows.
-
-- [LLMAgentRuntimes.md](LLMAgentRuntimes.md) - In-depth explanation of the LLM agents powering Open Doctor, including deterministic nature, testing requirements, and versioning.
-
-- [StandardsAndAPI.md](StandardsAndAPI.md) - Comprehensive standards for medical AI, benchmarks, and APIs that ensure consistent, secure, and reliable operation.
+- [SystemArchitecture.md](SystemArchitecture.md) - Detailed overview of the system architecture, core components, and security considerations.
+- [FrontendInterface.md](FrontendInterface.md) - Comprehensive description of the user interface design, features, and interaction patterns.
+- [DeveloperTools.md](DeveloperTools.md) - Documentation of tools available for developers to extend and customize the Open Doctor system.
+- [LLMAgentRuntimes.md](LLMAgentRuntimes.md) - Specifications for LLM agent runtimes, including deterministic behavior and testing requirements.
+- [StandardsAndAPI.md](StandardsAndAPI.md) - Standards and guidelines for medical AI, benchmarking, and API integration.
 
 ### Project Planning and Resources
 
@@ -166,16 +175,16 @@ The following documents provide detailed information about different aspects of 
 
 - [Contributing.md](Contributing.md) - Guidelines for contributing to Open Doctor, including coding standards, pull request processes, and community resources.
 
-- [Open Doctor Spec TODO.md](Open%20Doctor%20Spec%20TODO.md) - Comprehensive task list for project implementation, organized by priority.
+- [ProjectTODO.md](ProjectTODO.md) - Comprehensive task list for project implementation, organized by priority and area of development.
 
 ### Data and Information Resources
 
-- [Medical Dictionaries.md](Medical%20Dictionaries.md) - List of medical dictionaries and resources that will power Open Doctor's terminology understanding and patient communication features.
+- [MedicalDictionaries.md](MedicalDictionaries.md) - List of medical dictionaries and resources for terminology understanding and patient communication.
 
-- [Data Sources.md](Data%20Sources.md) - Authoritative medical data sources that will be used for knowledge panels and dictionary data in the system.
+- [DataSources.md](DataSources.md) - Authoritative medical data sources for knowledge panels and dictionary data.
 
-- [Benchmarking datasets (Acquiring-MIMIC).md](Benchmarking%20datasets%20(Acquiring-MIMIC).md) - Process and requirements for obtaining the MIMIC database for AI model validation and benchmarking.
+- [BenchmarkingDatasets.md](BenchmarkingDatasets.md) - Process and requirements for obtaining medical datasets for AI model validation.
 
 ### Community and Collaboration
 
-- [People to contact and work with on the Open Doctor.md](People%20to%20contact%20and%20work%20with%20on%20the%20Open%20Doctor.md) - List of experts in medical informatics and healthcare technology who could provide guidance on the project.
+- [ExpertContacts.md](ExpertContacts.md) - List of experts in medical informatics and healthcare technology for project guidance.
