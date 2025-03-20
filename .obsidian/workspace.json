@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "NLP-student-projects/ProjectOverview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "ProjectOverview"
             }
           }
         ]
@@ -179,9 +179,9 @@
   },
   "active": "13ec93bf6dd04609",
   "lastOpenFiles": [
+    "README.md",
     "Recent interview conversation.txt",
     "FrontendInterface.md",
-    "README.md",
     "attachments/Pasted image 20250320152756.png",
     "attachments/Screenshot 2025-03-19 at 08.53.37.png",
     "attachments/Open Doctor Canvas..canvas",
