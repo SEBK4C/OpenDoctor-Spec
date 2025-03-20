@@ -86,12 +86,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "People to contact and work with on the Open Doctor.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "People to contact and work with on the Open Doctor"
+              "title": "README"
             }
           },
           {
@@ -228,13 +228,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "People to contact and work with on the Open Doctor.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of People to contact and work with on the Open Doctor"
+              "title": "Outline of README"
             }
           },
           {
@@ -267,9 +267,9 @@
   },
   "active": "24a1451449bc7b5f",
   "lastOpenFiles": [
-    "README.md",
-    "People to contact and work with on the Open Doctor.md",
     "Open Doctor Spec TODO.md",
+    "People to contact and work with on the Open Doctor.md",
+    "README.md",
     "Medical Dictionaries.md",
     "Data Sources.md",
     "Benchmarking datasets (Acquiring-MIMIC).md",

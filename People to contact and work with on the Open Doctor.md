@@ -1,28 +1,28 @@
-# Open Doctor Project Contacts
+# Open Doctor Project: Experts to Contact
 
 ## Overview
-This document lists key contacts and collaborators who are contributing to the Open Doctor project. These individuals bring valuable expertise in medical informatics, AI, and healthcare technology, helping to ensure the project's success and adherence to medical standards.
+This document lists key experts in medical informatics, AI, and healthcare technology who could provide valuable guidance and expertise for the Open Doctor project. These individuals have significant experience in areas crucial to our project's success.
 
-## Purpose
-These contacts will help:
-- Guide the development of medical AI features
-- Ensure compliance with medical standards
-- Provide expertise in medical informatics
-- Support the project's research and development
-- Validate medical accuracy and reliability
+## Potential Contributions
+These experts could help with:
+- Advising on medical AI feature development
+- Ensuring compliance with medical standards
+- Providing expertise in medical informatics
+- Supporting research and development
+- Validating medical accuracy and reliability
 
-## Research Contacts
+## Research Experts
 
 ### Dina Demner-Fushman
 **Organization**: National Library of Medicine
 
-#### Expertise
+#### Areas of Expertise
 - Medical informatics
 - Natural language processing
 - Healthcare AI
 - Medical terminology
 
-#### Resources
+#### Relevant Resources
 - [NLM Research Staff Profile](https://www.nlm.nih.gov/research/researchstaff/DemnerFushmanDina.html)
 - [PhysioNet Profile](https://physionet.org/users/ddemner/)
 - [ArcheHR QA BioNLP Task 2025](https://physionet.org/content/archehr-qa-bionlp-task-2025/1.1/)
@@ -30,20 +30,20 @@ These contacts will help:
 ### Sarvesh Soni
 **Organization**: The University of Texas Health Science Center at Houston
 
-#### Expertise
+#### Areas of Expertise
 - Healthcare technology
 - Medical data analysis
 - AI in healthcare
 - Medical informatics
 
-#### Resources
+#### Relevant Resources
 - [PhysioNet Profile](https://physionet.org/users/sarveshsoni/)
 - [Personal Website](https://soni-sarvesh.github.io)
 
 > [!NOTE]
-> This list will be updated as new contacts and collaborators are added to the project.
+> This list will be updated as we identify additional experts who could contribute to the project.
 
 > [!IMPORTANT]
-> These contacts are crucial for ensuring Open Doctor maintains the highest standards of medical accuracy and reliability while developing innovative healthcare solutions.
+> These experts have been identified based on their expertise and potential contributions to Open Doctor. We aim to reach out to them to discuss potential collaboration opportunities.
 
 ---
