@@ -34,18 +34,23 @@ Open Doctor is a specialized IDE designed for managing and interacting with medi
 
 ### Core Components
 
-#### 1. System Portability
-The system is designed to be fully portable, allowing patients to maintain their medical records securely on their own devices. This includes:
-- A portable patient data file system
-- A flexible database schema for medical records
-- A self-contained LLM server stack for local AI processing
+**1. System Portability**
 
-#### 2. Background Processes
-The system includes robust background processes to ensure data security and efficient operation:
-- Granular permissions management for sensitive medical data
-- Secure file system traversal for medical records
-- Protected file edit APIs for record updates
-- Multi-database scheduler for efficient data management
+The system is engineered for full portability, enabling patients to securely store and manage their medical records directly on their own devices. This includes:
+- A portable patient data file system.
+- A flexible database schema optimized for diverse medical records.
+- A self-contained LLM server stack that enables local AI processing without relying on external services.
+
+**2. Asynchronous Background Processes**
+
+The system employs asynchronous background processes to ensure data security and efficient operation without interrupting the core medical timeline. Key features include:
+- **Process Tasks File:** All required background tasks are defined within a dedicated process tasks file. These tasks can run automatically in the background or be manually initiated by the user when needed.
+- **Commissioning of Specific Tasks:** Certain process tasks—especially those requiring advanced AI computation or human oversight—can be commissioned separately. This ensures that critical updates and verifications occur without being directly committed to the patient’s medical timeline.
+- **Granular Permissions Management:** Detailed access control for sensitive medical data, ensuring that only authorized processes can modify records.
+- **Secure File System Traversal:** Robust mechanisms for safely navigating and accessing the file system containing medical records.
+- **Protected File Edit APIs:** APIs designed for secure and controlled updates to medical records.
+- **Multi-Database Scheduler:** An efficient scheduler that orchestrates tasks across multiple databases, ensuring optimal data management and system performance.
+
 
 #### 3. Frontend Interface
 The interface is designed to be intuitive and efficient, mirroring Cursor's coding tool layout but specialized for medical documents:
