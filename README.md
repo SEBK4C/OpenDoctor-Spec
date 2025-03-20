@@ -64,10 +64,7 @@ The interface is designed to be intuitive and efficient, mirroring Cursor's codi
   - Smart forms for symptom and medication tracking
   - Local RAG pipeline for secure medical data analysis
   - Git-based version control for medical history
-
-| ![](Linked%20files/Screenshot%202025-03-19%20at%2008.53.37.png) | ![](attachments/Pasted%20image%2020250320152756.png) |
-| --------------------------------------------------------------- | ---------------------------------------------------- |
-
+![](attachments/Screenshot%202025-03-19%20at%2008.53.37.png)
 ---
 ### Developer Tools
 [↗ Complete documentation in DeveloperTools.md](DeveloperTools.md)

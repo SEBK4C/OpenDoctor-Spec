@@ -1,5 +1,7 @@
 {
   "attachmentFolderPath": "attachments",
   "newLinkFormat": "absolute",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
 }

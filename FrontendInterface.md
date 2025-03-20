@@ -8,7 +8,8 @@ The Open Doctor frontend interface is designed to be intuitive and efficient, mi
 
 The interface is divided into three main sections, each serving a distinct purpose in the patient's medical history management experience:
 
-![Interface Screenshot](Linked%20files/Screenshot%202025-03-19%20at%2008.53.37.png)
+![Interface Screenshot](attachments/Screenshot%202025-03-19%20at%2008.53.37.png)
+![](attachments/Pasted%20image%2020250320152756.png)
 
 ### Right Side: File System Navigation
 
