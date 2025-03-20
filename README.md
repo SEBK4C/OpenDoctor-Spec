@@ -1,16 +1,11 @@
 # OpenDoctor-Spec
 
 > Open Doctor - Like _Cursor.sh IDE but for personal medical history_
-## Overview
+
+> [!NOTE] This repository of specification documents is optimized for viewing in Obsidian [obsidian.md/download](https://obsidian.md/download) Clone repository and open as an Obsidian vault 
+> 
+## Overview & Project Story
 Open Doctor is a specialized IDE designed for managing and interacting with medical history, similar to how Cursor IDE is used for coding. It provides a comprehensive platform for patients to maintain, understand, and share their medical records while ensuring privacy and data security. 
-
-## Using This Repository of specification Docs
-This repository is optimized for viewing in Obsidian [obsidian.md/download](https://obsidian.md/download)
-1. Clone repository and open this repository as an Obsidian vault
-2. Enable the Graph View to visualize connections between documents
-
-## Project Story
-
 ### The Problem
 In today's healthcare system, both patients and doctors face significant challenges:
 - Patients feel frustrated with limited time during doctor visits
@@ -18,7 +13,6 @@ In today's healthcare system, both patients and doctors face significant challen
 - Critical medical history is often fragmented across different healthcare providers [↗ DataSources.md](DataSources.md)
 - Important details from past visits and tests are frequently missed in brief consultations
 - Patients struggle to maintain a comprehensive view of their health status
-
 ### Our Solution
 Open Doctor is a privacy-first, open-source tool that empowers patients to take charge of their medical records. It provides:
 - A comprehensive, always-current "one-pager" health summary for doctor visits
@@ -26,7 +20,6 @@ Open Doctor is a privacy-first, open-source tool that empowers patients to take 
 - Complete historical test results and references
 - Local AI-powered analysis of medical history
 - Future integration with medical research databases for treatment protocol suggestions
-
 ### Key Differentiators
 - **Privacy-First**: All processing happens locally on the patient's device
 - **Open Source**: The only open-source AI doctor tool focused on local processing of patient health histories
@@ -72,7 +65,8 @@ The interface is designed to be intuitive and efficient, mirroring Cursor's codi
   - Local RAG pipeline for secure medical data analysis
   - Git-based version control for medical history
 
-![Interface Screenshot](Linked%20files/Screenshot%202025-03-19%20at%2008.53.37.png)
+| ![](Linked%20files/Screenshot%202025-03-19%20at%2008.53.37.png) | ![](attachments/Pasted%20image%2020250320152756.png) |
+| --------------------------------------------------------------- | ---------------------------------------------------- |
 
 ---
 ### Developer Tools
@@ -112,10 +106,11 @@ This ensures consistent and reliable medical advice:
 > [!NOTE]
 > Deterministic : Given the same input tokens, a doctor agent will need to always generate the same output tokens 100% of the time. 
 
-### Testing Requirements: 
+###  Some early Testing Requirements: 
 > [!TODO]
-> - [ ] Test Tool APIs with Deterministic "dummy data" Implement on MCP_test servers
-> - [ ] Validate LLM determinism in practice, identify and eliminate 
+>- [ ] Validate LLM determinism in practice and identify
+>- [ ] Test Tool APIs with Deterministic "dummy data" Implement on MCP_test servers
+> 
 > 
 > [↗ See ProjectTODO.md for complete task list](ProjectTODO.md)
 
