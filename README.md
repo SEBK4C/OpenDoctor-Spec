@@ -1,8 +1,9 @@
 # OpenDoctor-Spec
 
-> Open Doctor - Like _Cursor.sh IDE but for personal medical history_
+> Open Doctor - Like _Cursor.sh IDE_ but for personal medical history
 
-> [!NOTE] This repository of specification documents is optimized for viewing in Obsidian [obsidian.md/download](https://obsidian.md/download) Clone repository and open as an Obsidian vault 
+
+> This repository of specification documents is optimized for viewing in Obsidian [obsidian.md/download](https://obsidian.md/download) Clone repository and open as an Obsidian vault. 
 > 
 ## Overview & Project Story
 Open Doctor is a specialized IDE designed for managing and interacting with medical history, similar to how Cursor IDE is used for coding. It provides a comprehensive platform for patients to maintain, understand, and share their medical records while ensuring privacy and data security. 
