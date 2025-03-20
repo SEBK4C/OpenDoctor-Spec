@@ -1,77 +1,106 @@
 # OpenDoctor-Spec
-Open Doctor = Like _Cursor.sh IDE but for medical history_
 
-Open Doctor Spec- _Cursor IDE but for medical history_
----
-(what is in scope?)
+> Open Doctor - Like _Cursor.sh IDE but for medical history_
 
-The 
-- System is Fully portable:
-- Patient data File system:
-- Database schema: 
-- LLM server stack, as packaged single binary:
-  
-Background processes:
-- permissions, file system traversal and file Edit APIs and Multi Database scheduler:
-  
-Front end: (exactly like Cursor Coding tool but for medical documents)
----
--  Right side collapsible File system view: 
-	- 
-- Middle view: Date scroll with text summary of Medical timeline (Oldest Medical documents at the bottom of the timeline.) newest documents at the top.  
-	- Scroll the timeline past the TOP of "timeline" (Scroll with inertia animation) 
-		- Snap page Too a "State of health one pager" with prominent (Export as PDF button.)
-- Left Side: Vertical Split in the window Chat conversations and horizontally split bottom "Autonomous diagnosis - Smart Forms View". 
-	- This is the primary AI interaction point. 
-	- patient can ask questions of their own medical data with a RAG pipeline that scrolls to the correct point in their history. And let them have a conversation about details within that data..
-	- from this conversation, transcript symptoms and medical interventions can be inferred. Then A form will be generated, asking the user if the symptoms/medication/historical-dates are accurate and if they would like the system AI to add it to their timeline. (The user has easy selection to correct any inaccurate information within the Smart-Form directly.) 
-	- When a "Smart form" is submitted, a summary is generated on the Timeline at the appropriate date range and a new GIT commit is made.  (Allowing the user to roll back to previous versions of their medical history. Keeping a detailed file versioning system available for historical medical intervention references.)
-	![](Linked%20files/Screenshot%202025-03-19%20at%2008.53.37.png)
----
-Developer tools:
----
-- Open Doctor LLM agent runtime MAKER: 
-	- Packages Open Doctor agent dependencies into a single binary and Hashes the resulting file. 
-- Medical-qualifications Permission assigner. 
-	- Provides an AI  "Open Dr ranking" 
-	- Registers model "qualifications" with background scheduler and tool database.
-----
+## Overview
+Open Doctor is a specialized IDE designed for managing and interacting with medical history, similar to how Cursor IDE is used for coding.
 
-Open Doctor LLM agent runtimes: 
----
-*Open Dr. LLM agent runtimes must have:( local or API , Seed-Numbers, Prompts / chains / MCP-tools.. Compiled, hashed, signed published publicly.*  )
+## System Architecture
 
-!!!All doctors are deterministic!!! - No randomness !!!
+### Core Components
 
-- Temperature Seed values are hard coded.  
-- Prompts and conversation chains are hardcoded.
-- Tools and API are hardcoded
-  
-This means you cannot give a an old doctor agent a new Tool/API if you give it exactly the same tokens as input, it will generate the same tokens output every time. 
+#### 1. System Portability
+- Fully portable system
+- Patient data file system
+- Database schema
+- LLM server stack (packaged as single binary)
 
-> [!Test these Idea's before Implimentation]
-> - TEST Tool APIs with "dummy data" will be required. Like a search query API. With JSON objects returned. Will need to be deterministic for test testing to be valid.. 
-> 
-> - Every MCP tool server, should have a MCP_test server with a list of Dummy Data.
-> TEST THIS IDEA!
-> - Can LLM Determinism some work in practice?
+#### 2. Background Processes
+- Permissions management
+- File system traversal
+- File edit APIs
+- Multi-database scheduler
 
-Standards:
----
-- We publish "Known Good"  medical AI standards for agents interactions with patients and doctors. 
-	- Patient interactions : User query Conversations, AI intake form and patient query, History tracking and "Medical timeline",  state of patient "one pager".
-	- Doctor interactions : Knowledge query Conversations,  Histories "Medical timelines",  state of patient "one pager".
+#### 3. Frontend Interface
+The interface mirrors Cursor's coding tool layout but is specialized for medical documents:
 
-- Benchmarks standards
-	- "medical-qualifications" tests
-- safety standards
-	- patient data permissions (API-tool_use-level 1,2,3,4...)
-	- patient conversation permissions  (AI_level 1,2,3,4...)
-	- hallucination detection (Big Brother tools)
-	- Data change tracking and immutability (Git)
-	
-- API standards.. 
-	- how to request a database permission, 
-	- how to build new Open Dr. runtimes with your specific tools.
--  "Known Good LLM agent runtimes", compiled binaries and signed.
-	- How to publish those runtimes so others can use them
+- **Right Side**: Collapsible file system view
+- **Middle View**: 
+  - Date scroll with text summary of medical timeline
+  - Oldest medical documents at bottom
+  - Newest documents at top
+  - Scroll with inertia animation
+  - Snap page to "State of health one pager" with prominent "Export as PDF" button
+- **Left Side**: 
+  - Vertical split window for chat conversations
+  - Horizontal split bottom for "Autonomous diagnosis - Smart Forms View"
+  - Primary AI interaction point
+  - RAG pipeline for patient data queries
+  - Smart form generation for symptom/medication tracking
+  - Git-based version control for medical history
+
+![Interface Screenshot](Linked%20files/Screenshot%202025-03-19%20at%2008.53.37.png)
+
+### Developer Tools
+
+#### 1. Open Doctor LLM Agent Runtime MAKER
+- Packages Open Doctor agent dependencies into single binary
+- Generates file hashes
+
+#### 2. Medical Qualifications Permission Assigner
+- Provides AI "Open Dr ranking"
+- Registers model qualifications with background scheduler
+- Manages tool database
+
+## Open Doctor LLM Agent Runtimes
+
+### Requirements
+- Local or API access
+- Seed numbers
+- Prompts/chains/MCP-tools
+- Compiled, hashed, and signed for public distribution
+
+### Deterministic Nature
+> [!IMPORTANT]
+> All doctors are deterministic - No randomness!
+
+- Temperature seed values are hardcoded
+- Prompts and conversation chains are hardcoded
+- Tools and APIs are hardcoded
+
+> [!NOTE]
+> Given the same input tokens, an old doctor agent will always generate the same output tokens.
+
+### Testing Requirements
+> [!TODO]
+> - [ ] Test Tool APIs with "dummy data"
+> - [ ] Implement MCP_test server with dummy data list
+> - [ ] Validate LLM determinism in practice
+
+## Standards
+
+### Medical AI Standards
+1. Patient Interactions:
+   - User query conversations
+   - AI intake form and patient query
+   - History tracking and medical timeline
+   - State of patient "one pager"
+
+2. Doctor Interactions:
+   - Knowledge query conversations
+   - Medical timelines
+   - State of patient "one pager"
+
+### Benchmark Standards
+- Medical qualifications tests
+- Safety standards:
+  - Patient data permissions (API-tool_use-level 1,2,3,4...)
+  - Patient conversation permissions (AI_level 1,2,3,4...)
+  - Hallucination detection
+  - Data change tracking and immutability (Git)
+
+### API Standards
+- Database permission request protocols
+- Open Dr. runtime development guidelines
+- "Known Good LLM agent runtimes" compilation and signing
+- Runtime publication guidelines
