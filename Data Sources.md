@@ -1,8 +1,20 @@
 # Medical Data Sources
 
-This document lists the authoritative medical data sources potentially to be used in the OpenDoctor system for knowledge panels and dictionary data.
+## Overview
+This document lists the authoritative medical data sources that will power Open Doctor's knowledge base and medical terminology understanding. These sources are carefully selected to provide comprehensive, accurate, and up-to-date medical information while maintaining the highest standards of medical accuracy and reliability.
 
-## Government and Public Health Organizations
+## Purpose
+The integration of these data sources enables Open Doctor to:
+- Provide accurate medical terminology and definitions
+- Support evidence-based medical decision making
+- Enable comprehensive medical history analysis
+- Facilitate future integration with medical research databases
+- Ensure consistent and reliable medical information
+
+## Data Source Categories
+
+### Government and Public Health Organizations
+These sources provide authoritative, government-backed medical information and standards:
 
 | Source | Organization | Year |
 |--------|--------------|------|
@@ -19,7 +31,8 @@ This document lists the authoritative medical data sources potentially to be use
 | Standard Product Nomenclature | U.S. Food & Drug Administration | 2003 |
 | U.S. FDA Glossary | U.S. Food & Drug Administration | 2021 |
 
-## Academic and Research Institutions
+### Academic and Research Institutions
+These sources provide cutting-edge medical research and terminology:
 
 | Source | Organization | Year |
 |--------|--------------|------|
@@ -31,7 +44,8 @@ This document lists the authoritative medical data sources potentially to be use
 | GeneReviews | University of Washington | 2021 |
 | Harvard Dictionary of Health Terms | Harvard Medical Publishing | 2011 |
 
-## Medical Standards and Classifications
+### Medical Standards and Classifications
+These sources provide standardized medical terminology and classifications:
 
 | Source | Organization | Year |
 |--------|--------------|------|
@@ -41,7 +55,8 @@ This document lists the authoritative medical data sources potentially to be use
 | Medical Dictionary for Regulatory Activities | MedDRA | 2021 |
 | Universal Medical Device Nomenclature | ECRI Institute | 2021 |
 
-## Healthcare Organizations
+### Healthcare Organizations
+These sources provide practical medical knowledge and terminology:
 
 | Source | Organization | Year |
 |--------|--------------|------|
@@ -49,7 +64,8 @@ This document lists the authoritative medical data sources potentially to be use
 | The Omaha System | Omaha Systems | 2005 |
 | World Health Organization | World Health Organization | 1997 |
 
-## Specialized Resources
+### Specialized Resources
+These sources provide specialized medical knowledge and terminology:
 
 | Source | Organization | Year |
 |--------|--------------|------|
@@ -59,4 +75,7 @@ This document lists the authoritative medical data sources potentially to be use
 | Perioperative Nursing Data Set (PNDS) | AORN | 2011 |
 
 > [!NOTE]
-> All sources listed above are authoritative medical references that have been carefully selected for their reliability and comprehensive coverage of medical terminology and concepts.
+> All sources listed above are authoritative medical references that have been carefully selected for their reliability and comprehensive coverage of medical terminology and concepts. These sources will be used to power Open Doctor's medical knowledge base while maintaining the highest standards of accuracy and reliability.
+
+> [!IMPORTANT]
+> The integration of these data sources will be done locally on the patient's device, ensuring privacy and data security while providing comprehensive medical knowledge support.

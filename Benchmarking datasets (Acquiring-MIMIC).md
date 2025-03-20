@@ -1,7 +1,15 @@
 # Benchmarking Datasets: MIMIC Database Access
 
 ## Overview
-This document outlines the process and requirements for acquiring access to the MIMIC (Medical Information Mart for Intensive Care) database for benchmarking medical AI models.
+This document outlines the process and requirements for acquiring access to the MIMIC (Medical Information Mart for Intensive Care) database, which will be used to validate and benchmark Open Doctor's AI models. This validation process is crucial for ensuring the accuracy and reliability of our medical AI system.
+
+## Purpose
+The MIMIC database will be used to:
+- Validate the accuracy of Open Doctor's medical AI models
+- Ensure consistent and reliable medical advice
+- Benchmark performance across different medical specialties
+- Develop comprehensive testing scenarios
+- Create standardized evaluation metrics
 
 ## Resources
 - [PhysioNet](https://physionet.org)
@@ -14,6 +22,7 @@ This document outlines the process and requirements for acquiring access to the 
 > The best medical datasets are behind research credential walls. Medical researcher credentials are required for application approval.
 
 ### Purpose
+The MIMIC database will be used to:
 - Develop proper benchmarks for AI Model medical credentials
 - Vet models used within Open Doctor tools
 - Create a scoring certification system
@@ -93,5 +102,8 @@ As a "Credentialed User" of PhysioNet, you must:
 
 > [!NOTE]
 > Access is granted to individuals only. Colleagues must apply separately through the same procedure.
+
+> [!IMPORTANT]
+> The MIMIC database will be used exclusively for model validation and benchmarking. All patient data processing in Open Doctor will be done locally on the patient's device, ensuring privacy and security.
 
 
