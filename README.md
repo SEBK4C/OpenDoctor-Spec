@@ -45,7 +45,7 @@ The system is engineered for full portability, enabling patients to securely sto
 
 The system employs asynchronous background processes to ensure data security and efficient operation without interrupting the core medical timeline. Key features include:
 - **Process Tasks File:** All required background tasks are defined within a dedicated process tasks file. These tasks can run automatically in the background or be manually initiated by the user when needed.
-- **Commissioning of Specific Tasks:** Certain process tasks—especially those requiring advanced AI computation or human oversight—can be commissioned separately. This ensures that critical updates and verifications occur without being directly committed to the patient’s medical timeline.
+- **Commissioning of Specific Tasks:** Certain process tasks—especially those requiring advanced AI computation or human oversight—can be commissioned separately. This ensures that critical updates and verifications occur without being directly committed to the patient's medical timeline.
 - **Granular Permissions Management:** Detailed access control for sensitive medical data, ensuring that only authorized processes can modify records.
 - **Secure File System Traversal:** Robust mechanisms for safely navigating and accessing the file system containing medical records.
 - **Protected File Edit APIs:** APIs designed for secure and controlled updates to medical records.
@@ -143,3 +143,39 @@ The system provides clear standards for integration and development:
 
 > [!NOTE]
 > Open Doctor is committed to maintaining the highest standards of medical accuracy, patient privacy, and system reliability while providing an open-source solution for better healthcare outcomes.
+
+## Project Documentation
+
+The following documents provide detailed information about different aspects of the Open Doctor project:
+
+### Core Architecture and Components
+
+- [SystemArchitecture.md](SystemArchitecture.md) - Detailed explanation of Open Doctor's system architecture, including core components, security considerations, and integration patterns.
+
+- [FrontendInterface.md](FrontendInterface.md) - Comprehensive guide to the user interface, including layout, features, interaction patterns, and planned enhancements.
+
+- [DeveloperTools.md](DeveloperTools.md) - Documentation of tools for developers, including the LLM Agent Runtime MAKER, Medical Qualifications Permission Assigner, and development workflows.
+
+- [LLMAgentRuntimes.md](LLMAgentRuntimes.md) - In-depth explanation of the LLM agents powering Open Doctor, including deterministic nature, testing requirements, and versioning.
+
+- [StandardsAndAPI.md](StandardsAndAPI.md) - Comprehensive standards for medical AI, benchmarks, and APIs that ensure consistent, secure, and reliable operation.
+
+### Project Planning and Resources
+
+- [ProjectRoadmap.md](ProjectRoadmap.md) - Future development plans, including core phases, key milestones, and planned enhancements.
+
+- [Contributing.md](Contributing.md) - Guidelines for contributing to Open Doctor, including coding standards, pull request processes, and community resources.
+
+- [Open Doctor Spec TODO.md](Open%20Doctor%20Spec%20TODO.md) - Comprehensive task list for project implementation, organized by priority.
+
+### Data and Information Resources
+
+- [Medical Dictionaries.md](Medical%20Dictionaries.md) - List of medical dictionaries and resources that will power Open Doctor's terminology understanding and patient communication features.
+
+- [Data Sources.md](Data%20Sources.md) - Authoritative medical data sources that will be used for knowledge panels and dictionary data in the system.
+
+- [Benchmarking datasets (Acquiring-MIMIC).md](Benchmarking%20datasets%20(Acquiring-MIMIC).md) - Process and requirements for obtaining the MIMIC database for AI model validation and benchmarking.
+
+### Community and Collaboration
+
+- [People to contact and work with on the Open Doctor.md](People%20to%20contact%20and%20work%20with%20on%20the%20Open%20Doctor.md) - List of experts in medical informatics and healthcare technology who could provide guidance on the project.
